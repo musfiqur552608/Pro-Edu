@@ -11,8 +11,24 @@
     <!-- google fonts -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-        body{
+
+        body {
             font-family: 'Poppins', sans-serif;
+        }
+
+        .carousel-caption {
+            top: 50%;
+            width: 45%;
+            margin: 0 auto;
+            transform: translateY(-50%);
+        }
+
+        .carousel-height {
+            
+            height: 90vh;
+        }
+        .margin{
+            margin-top: 100px;
         }
     </style>
 </head>
@@ -21,9 +37,12 @@
     <!-- header start -->
     <header>
         <!-- navbar start -->
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container-fluid ">
                 <a class="navbar-brand fw-bold fs-2" href="#">Pro Edu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
                         <li class="nav-item me-5 ">
@@ -51,6 +70,53 @@
             </div>
         </nav>
         <!-- navbar end -->
+        <!-- slider start -->
+        <div id="carouselExampleCaptions" class="carousel slide margin border rounded" data-bs-ride="false">
+            <div class="carousel-inner border rounded">
+                <div class="carousel-item active carousel-height">
+                    <img src="images/cover/cover-1.png" class="d-block w-100 border rounded bc-black" style="filter: brightness(30%);">
+                    <div class="carousel-caption d-none d-md-block" >
+                        <h1>Get Started Digital Learning</h5>
+                            <p>In education, motivation helps children and young people to focus their attention on a
+                                key
+                                goal or outcome.</p>
+                            <button type="button" class="btn btn-info">Get Started</button>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-height">
+                    <img src="images/cover/cover-2.jpg" class="d-block w-100 border rounded bc-black" style="filter: brightness(30%)">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Get Started Digital Learning</h5>
+                            <p>In education, motivation helps children and young people to focus their attention on a
+                                key
+                                goal or outcome.</p>
+                            <button type="button" class="btn btn-info">Get Started</button>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-height">
+                    <img src="images/cover/cover-3.jpg" class="d-block w-100 border rounded bc-black" style="filter: brightness(30%);">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Get Started Digital Learning</h5>
+                            <p>In education, motivation helps children and young people to focus their attention on a
+                                key
+                                goal or outcome.</p>
+                            <button type="button" class="btn btn-info">Get Started</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- slider end -->
+
     </header>
     <!-- header end -->
 
