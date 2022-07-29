@@ -18,28 +18,23 @@
             font-family: 'Poppins', sans-serif;
         }
 
-        .carousel-caption {
-            top: 50%;
-            width: 45%;
-            margin: 0 auto;
-            transform: translateY(-50%);
-        }
-
-        .carousel-height {
-
-            height: 90vh;
-        }
-
         .margin {
             margin-top: 100px;
         }
 
         .image {
-            width: 95%;
+            width: 100%;
         }
 
         .pcolor {
             color: #777777;
+        }
+        .col-sm-12 img{
+            width: 100%;
+            
+        }
+        .col-md-5 img{
+            height: 100%;
         }
     </style>
 </head>
@@ -62,19 +57,19 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item me-5">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item me-5">
-                            <a class="nav-link" href="#">Deals</a>
+                            <a class="nav-link" href="#deals">Deals</a>
                         </li>
                         <li class="nav-item me-5">
-                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#success">Success</a>
                         </li>
                         <li class="nav-item me-5">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item me-5">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="#register">Register</a>
                         </li>
 
                     </ul>
@@ -89,7 +84,7 @@
                 <div class="carousel-item active carousel-height">
                     <img src="images/cover/cover-1.png" class="d-block w-100 border rounded bc-black"
                         style="filter: brightness(30%);">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <h1>Get Started Digital Learning</h5>
                             <p>In education, motivation helps children and young people to focus their attention on a
                                 key
@@ -100,7 +95,7 @@
                 <div class="carousel-item carousel-height">
                     <img src="images/cover/cover-2.jpg" class="d-block w-100 border rounded bc-black"
                         style="filter: brightness(30%)">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption">
                         <h1>Get Started Digital Learning</h5>
                             <p>In education, motivation helps children and young people to focus their attention on a
                                 key
@@ -111,7 +106,7 @@
                 <div class="carousel-item carousel-height">
                     <img src="images/cover/cover-3.jpg" class="d-block w-100 border rounded bc-black"
                         style="filter: brightness(30%);">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption ">
                         <h1>Get Started Digital Learning</h5>
                             <p>In education, motivation helps children and young people to focus their attention on a
                                 key
@@ -138,7 +133,7 @@
     <!-- main start -->
     <main class="container">
         <!-- Courses start -->
-        <section class="d-flex flex-column justify-content-center align-items-center margin">
+        <section id="courses" class="d-flex flex-column justify-content-center align-items-center margin">
             <div class="d-flex flex-column w-50 ps-5 pe-5 text-center">
                 <h2 class="fs-1 fw-bold">Discover Our Popular Courses</h2>
                 <p class="pcolor">Find and take your best. We are waiting for you and make you skilled. Make your hope
@@ -148,104 +143,122 @@
             </div>
             <div class="container mt-4">
                 <div class="row">
-                    <div class="card mb-3 me-3" style="max-width: 540px; padding: 0;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
-                                    <p class="card-text pcolor">Learn UI/UX design in the best way. We ensure you that
-                                        you
-                                        can.
-                                        Best wishes for you.</p>
-                                    <p class="card-text"><small class="text-info">Price:20$</small></p>
+                    <div class="col-lg-6 col-md-12 ps-0">
+                        <div class="card mb-3" style="padding: 0;">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
+                                        <p class="card-text pcolor">Learn UI/UX design in the best way. We ensure you
+                                            that
+                                            you
+                                            can.
+                                            Best wishes for you.</p>
+                                        <p class="card-text"><small class="text-info">Price:20$</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 540px; padding: 0;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
-                                    <p class="card-text pcolor">Learn Javascript Basic in the best way. We ensure you
-                                        that
-                                        you can.
-                                        Best wishes for you.</p>
-                                    <p class="card-text"><small class="text-info">Price:20$</small></p>
+
+                    <div class="col-lg-6 col-md-12 ps-0">
+                        <div class="card mb-3" style="padding: 0;">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                                        <p class="card-text pcolor">Learn Javascript Basic in the best way. We ensure
+                                            you
+                                            that
+                                            you can.
+                                            Best wishes for you.</p>
+                                        <p class="card-text"><small class="text-info">Price:20$</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 me-3" style="max-width: 540px; padding: 0;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Fullstack Web Development</h5>
-                                    <p class="card-text pcolor">Learn Fullstack Web Development in the best way. We
-                                        ensure
-                                        you that
-                                        you can. Best wishes for you.</p>
-                                    <p class="card-text"><small class="text-info">Price:20$</small></p>
+                    <div class="col-lg-6 col-md-12 ps-0">
+                        <div class="card mb-3" style="padding: 0;">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Fullstack Web Development</h5>
+                                        <p class="card-text pcolor">Learn Fullstack Web Development in the best way. We
+                                            ensure
+                                            you that
+                                            you can. Best wishes for you.</p>
+                                        <p class="card-text"><small class="text-info">Price:20$</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 540px; padding: 0;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Digital Marketing</h5>
-                                    <p class="card-text pcolor">Learn Digital Marketing in the best way. We ensure you
-                                        that
-                                        you
-                                        can. Best wishes for you.</p>
-                                    <p class="card-text"><small class="text-info">Price:20$</small></p>
+                    <div class="col-lg-6 col-md-12 ps-0">
+                        <div class="card mb-3" style="padding: 0;">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Digital Marketing</h5>
+                                        <p class="card-text pcolor">Learn Digital Marketing in the best way. We ensure
+                                            you
+                                            that
+                                            you
+                                            can. Best wishes for you.</p>
+                                        <p class="card-text"><small class="text-info">Price:20$</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 me-3" style="max-width: 540px; padding: 0;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Photography Basic Rules</h5>
-                                    <p class="card-text pcolor">Learn Photography Basic Rules in the best way. We ensure
-                                        you
-                                        that
-                                        you can. Best wishes for you.</p>
-                                    <p class="card-text"><small class="text-info">Price:20$</small></p>
+                    <div class="col-lg-6 col-md-12 ps-0">
+                        <div class="card mb-3" style="padding: 0;">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Photography Basic Rules</h5>
+                                        <p class="card-text pcolor">Learn Photography Basic Rules in the best way. We
+                                            ensure
+                                            you
+                                            that
+                                            you can. Best wishes for you.</p>
+                                        <p class="card-text"><small class="text-info">Price:20$</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 540px; padding: 0;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title fw-bold">Motion Graphics</h5>
-                                    <p class="card-text pcolor">Learn Motion Graphics in the best. We ensure you that
-                                        you
-                                        can. Best
-                                        wishes for you.</p>
-                                    <p class="card-text"><small class="text-info">Price:20$</small></p>
+                    <div class="col-lg-6 col-md-12 ps-0">
+                        <div class="card mb-3" style="padding: 0;">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-sm-12">
+                                    <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Motion Graphics</h5>
+                                        <p class="card-text pcolor">Learn Motion Graphics in the best. We ensure you
+                                            that
+                                            you
+                                            can. Best
+                                            wishes for you.</p>
+                                        <p class="card-text"><small class="text-info">Price:20$</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -257,9 +270,8 @@
         </section>
         <!-- Courses end -->
         <!-- elearning start -->
-        <section class="margin">
-            <div class="card mb-3 me-3 border-0"
-                style="max-width: 100%; height:622.61px; padding: 0; background-color: #F4FAFD;">
+        <section id="deals" class="margin">
+            <div class="card mb-3 me-3 border-0" style="width: 100%; padding: 0; background-color: #F4FAFD;">
                 <div class="row g-0">
                     <div class="col-md-5">
                         <img src="images/working.png" class="img-fluid rounded-start" alt="...">
@@ -271,31 +283,33 @@
                                 <p class="card-text pcolor">In order for anyone to decide if there is a reason to be
                                     involved with
                                     something, first it has to grab their attention. For your eLearning course to be
-                                    effective, you need to get your learners interested. The formula is standard: first
-                                    you
-                                    need to capture interest, then to stimulate inquiry, and finally to maintain
-                                    attention.<br> <br> Apart from tricks such as “Remember that”, “Please note”,
-                                    “Important
-                                    key” etc, the most effective way to capture your learners’ attention is to provide
-                                    them
-                                    with learning material that is exciting.</p>
+                                    effective, you need to get your learners interested.<span
+                                        class=" d-md-none d-lg-block"> <br> <br> Apart from tricks such as “Remember
+                                        that”, “Please note”,
+                                        “Important
+                                        key” etc, the most effective way to capture your learners’ attention is to
+                                        provide
+                                        them
+                                        with learning material that is exciting.</span></p>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-around">
-                            <div>
+
+                        <div class="row ms-4 ps-2">
+                            <div class="col-sm-6 col-md-6 col-lg-3">
                                 <h1>3.2K+</h1>
                                 <p class="pcolor">Online Course</p>
                             </div>
-                            <div>
+                            <div class="col-sm-6 col-md-6 col-lg-3">
                                 <h1>600+</h1>
                                 <p class="pcolor">Expert member</p>
                             </div>
-                            <div>
+                            <div class="col-sm-6 col-md-6 col-lg-3">
                                 <h1>1K+</h1>
                                 <p class="pcolor">Rating & Review</p>
                             </div>
                         </div>
-                        <button type="button" class="btn btn-info text-white fw-bold mt-4 ms-5">Read More</button>
+
+                        <button type="button" class="btn btn-info text-white fw-bold mt-4 ms-5 mb-4">Read More</button>
                     </div>
                 </div>
             </div>
@@ -303,45 +317,72 @@
         <!-- elearning end -->
 
         <!-- register start -->
-        <section class="margin bg-info border rounded d-flex p-5 justify-content-between align-items-center">
-            <div class="text-white w-50">
+        <section id="register" class="margin bg-info border rounded text-lg-start text-md-center text-sm-center d-lg-flex p-5 justify-content-lg-between align-items-lg-center ">
+            <div class="text-white w-lg-50">
                 <h2 class="fw-bold">Ready to join?</h2>
                 <p>Join with us and explore our courses. Feel the natural vive on coding. Happy coding.</p>
             </div>
-            <button type="button" class="btn bg-white text-info fw-bold mt-4">Register Now</button>
+            <button type="button" class="btn bg-white text-info fw-bold mt-4" data-bs-toggle="modal" data-bs-target="#modal">Register Now</button>
         </section>
+        <!-- modal start  -->
+        <div id="modal" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Register Done</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Welcome to our website</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- modal end -->
         <!-- register end -->
 
         <!-- successfull students start -->
-        <section class="margin">
-            <div class="w-50 pe-5">
+        <section id="success" class="margin">
+            <div class="w-md-75 w-lg-50 pe-5">
                 <h2 class="fw-bold pe-5">Meet Our Successfull Students</h2>
                 <p class="pcolor">Success is dream. You can't get it easily. You need to face trouble and over come from
                     it.
                     I hope you can
                     be successfull</p>
             </div>
-            <div class="row g-2">
-                <div class="col-3">
-                    <img class="image" src="images/student/student-1.png" alt="">
-                    <h5 class="pt-3">Awlad Hossain</h5>
-                    <p class="pcolor">UI/UX Designer</p>
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-3 text-md-start text-sm-center">
+                    <div class="border rounded">
+                        <img class="image" src="images/student/student-1.png" alt="">
+                        <h5 class="pt-3 ps-3">Awlad Hossain</h5>
+                        <p class="pcolor ps-3">UI/UX Designer</p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <img class="image" src="images/student/student-2.png" alt="">
-                    <h5 class="pt-3">Jannatul Islam</h5>
-                    <p class="pcolor">Motion Design</p>
+                <div class="col-md-6 col-lg-3 text-md-start text-sm-center">
+                    <div class="border rounded">
+                        <img class="image" src="images/student/student-2.png" alt="">
+                        <h5 class="pt-3 ps-3">Jannatul Islam</h5>
+                        <p class="pcolor ps-3">Motion Design</p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <img class="image" src="images/student/student-3.png" alt="">
-                    <h5 class="pt-3">Imran Hossain</h5>
-                    <p class="pcolor">Graphic Designer</p>
+                <div class="col-md-6 col-lg-3 text-md-start text-sm-center">
+                    <div class="border rounded">
+                        <img class="image" src="images/student/student-3.png" alt="">
+                        <h5 class="pt-3 ps-3">Imran Hossain</h5>
+                        <p class="pcolor ps-3">Graphic Designer</p>
+                    </div>
                 </div>
-                <div class="col-3">
+                <div class="col-md-6 col-lg-3 text-md-start text-sm-center">
+                    <div class="border rounded">
                     <img class="image" src="images/student/student-4.png" alt="">
-                    <h5 class="pt-3">Nishi Akter</h5>
-                    <p class="pcolor">Web Developer</p>
+                    <h5 class="pt-3 ps-3">Nishi Akter</h5>
+                    <p class="pcolor ps-3">Web Developer</p>
                 </div>
+            </div>
             </div>
             <div class="w-100 text-center">
                 <button type="button" class="btn bg-info text-white fw-bold mt-4 ">View All</button>
@@ -357,52 +398,58 @@
                     by
                     dogma – which is living with the results of other people's thinking. -Steve Jobs</p>
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="d-flex justify-content-between">
-                        <img src="images/comma.png" alt="">
-                        <div class="d-flex pe-3">
-                            <i class="fa-solid fa-star m-1" style="color: gold;"></i>
-                            <i class="fa-solid fa-star m-1" style="color: gold;"></i>
-                            <i class="fa-solid fa-star m-1" style="color: gold;"></i>
-                            <i class="fa-solid fa-star m-1" style="color: gold;"></i>
-                            <i class="fa-regular fa-star m-1" style="color: gold;"></i>
+            <div class="row g-3">
+                <div class="col-md-12 col-lg-6 ">
+                    <div class="border rounded p-3">
+                        <div class="d-flex justify-content-between">
+                            <img src="images/comma.png" alt="">
+                            <div class="d-flex pe-3">
+                                <i class="fa-solid fa-star m-1" style="color: gold;"></i>
+                                <i class="fa-solid fa-star m-1" style="color: gold;"></i>
+                                <i class="fa-solid fa-star m-1" style="color: gold;"></i>
+                                <i class="fa-solid fa-star m-1" style="color: gold;"></i>
+                                <i class="fa-regular fa-star m-1" style="color: gold;"></i>
+                            </div>
                         </div>
-                    </div>
-                    <p class="pe-5 pt-3">This course was short but very informative and very helpful for an aspiring
-                        leader
-                        like myself. It also
-                        helped me understand how to view or understand when I receive feedback. I highly recommend it!!
-                    </p>
-                    <div class="d-flex">
-                        <img class="rounded-circle" width="42px" height="42px" src="images/student/student-1.png">
-                        <div class="ms-3">
-                            <h6 class="fw-blod">Awlad Hossain</h6>
-                            <p><small>UI/UX Designer</small></p>
+                        <p class="pe-5 pt-3">This course was short but very informative and very helpful for an aspiring
+                            leader
+                            like myself. It also
+                            helped me understand how to view or understand when I receive feedback. I highly recommend
+                            it!!
+                        </p>
+                        <div class="d-flex">
+                            <img class="rounded-circle" width="42px" height="42px" src="images/student/student-1.png">
+                            <div class="ms-3">
+                                <h6 class="fw-blod">Awlad Hossain</h6>
+                                <p><small>UI/UX Designer</small></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="d-flex justify-content-between">
-                        <img src="images/comma.png" alt="">
-                        <div class="d-flex pe-3">
-                            <i class="fa-solid fa-star m-1" style="color: gold;"></i>
-                            <i class="fa-solid fa-star m-1" style="color: gold;"></i>
-                            <i class="fa-solid fa-star m-1" style="color: gold;"></i>
-                            <i class="fa-solid fa-star m-1" style="color: gold;"></i>
-                            <i class="fa-regular fa-star m-1" style="color: gold;"></i>
+                <div class="col-md-12 col-lg-6">
+                    <div class="border rounded p-3">
+                        <div class="d-flex justify-content-between">
+                            <img src="images/comma.png" alt="">
+                            <div class="d-flex pe-3">
+                                <i class="fa-solid fa-star m-1" style="color: gold;"></i>
+                                <i class="fa-solid fa-star m-1" style="color: gold;"></i>
+                                <i class="fa-solid fa-star m-1" style="color: gold;"></i>
+                                <i class="fa-solid fa-star m-1" style="color: gold;"></i>
+                                <i class="fa-regular fa-star m-1" style="color: gold;"></i>
+                            </div>
                         </div>
-                    </div>
-                    <p class="pe-5 pt-3">This course was short but very informative and very helpful for an aspiring
-                        leader
-                        like myself. It also
-                        helped me understand how to view or understand when I receive feedback. I highly recommend it!!
-                    </p>
-                    <div class="d-flex">
-                        <img class="rounded-circle" width="42px" height="42px" src="images/student/student-1.png">
-                        <div class="ms-3">
-                            <h6 class="fw-blod">Awlad Hossain</h6>
-                            <p><small>UI/UX Designer</small></p>
+                        <p class="pe-5 pt-3">This course was short but very informative and very helpful for an aspiring
+                            leader
+                            like myself. It also
+                            helped me understand how to view or understand when I receive feedback. I highly recommend
+                            it!!
+                        </p>
+                        <div class="d-flex">
+                            <img class="rounded-circle" width="42px" height="42px" src="images/student/student-1.png">
+                            <div class="ms-3">
+                                <h6 class="fw-blod">Awlad Hossain</h6>
+                                <p><small>UI/UX Designer</small></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -411,7 +458,7 @@
         <!-- feedback end -->
 
         <!-- FQA section start -->
-        <section class="margin d-flex justify-content-center">
+        <section class="margin d-flex justify-content-center" style="margin-bottom: 100px;">
             <div class="w-75">
                 <div class="d-flex flex-column text-center">
                     <h2 class="fs-1 fw-bold">Frequently Asked Questions</h2>
@@ -508,8 +555,8 @@
 
         <!-- companies start -->
 
-        <!-- companies end -->
-        <section class="margin" style="margin-bottom: 100px;">
+      
+        <section class="d-sm-none d-md-none d-lg-block" style="margin-bottom: 100px;">
             <div class="d-flex flex-column text-center">
                 <h2 class="fs-1 fw-bold">Trusted by over 800+ companies</h2>
             </div>
@@ -522,10 +569,11 @@
                 <img width="150px" height="20px" src="images/company/company-6.png" alt="">
             </div>
         </section>
+          <!-- companies end -->
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer class="h-50 bg-black d-flex flex-column align-items-center p-5 text-white">
+    <footer id="about" class="h-50 bg-black d-flex flex-column align-items-center p-5 text-white">
         <h1>Pro Edu</h1>
         <p class="pcolor fw-blod">Office 41, Zawaya Building, Ghala Muscat</p>
         <p class="pcolor">Sultanate of Oman</p>
